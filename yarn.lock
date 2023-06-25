@@ -1153,7 +1153,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/chai@npm:*, @types/chai@npm:^4.2.0":
+"@types/chai@npm:*, @types/chai@npm:^4.3.5":
   version: 4.3.5
   resolution: "@types/chai@npm:4.3.5"
   checksum: c8f26a88c6b5b53a3275c7f5ff8f107028e3cbb9ff26795fff5f3d9dea07106a54ce9e2dce5e40347f7c4cc35657900aaf0c83934a25a1ae12e61e0f5516e431
@@ -1202,14 +1202,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/mocha@npm:>=9.1.0":
+"@types/mocha@npm:^10.0.1":
   version: 10.0.1
   resolution: "@types/mocha@npm:10.0.1"
   checksum: 224ea9fce7b1734ccdb9aa99a622d902a538ce1847bca7fd22c5fb38adcf3ed536f50f48f587085db988a4bb3c2eb68f4b98e1cd6a38bc5547bd3bbbedc54495
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:>=12.0.0":
+"@types/node@npm:*, @types/node@npm:^20.3.1":
   version: 20.3.1
   resolution: "@types/node@npm:20.3.1"
   checksum: 63a393ab6d947be17320817b35d7277ef03728e231558166ed07ee30b09fd7c08861be4d746f10fdc63ca7912e8cd023939d4eab887ff6580ff704ff24ed810c
@@ -3624,9 +3624,9 @@ __metadata:
     "@nomicfoundation/hardhat-verify": ^1.0.1
     "@typechain/ethers-v6": ^0.4.0
     "@typechain/hardhat": ^8.0.0
-    "@types/chai": ^4.2.0
-    "@types/mocha": ">=9.1.0"
-    "@types/node": ">=12.0.0"
+    "@types/chai": ^4.3.5
+    "@types/mocha": ^10.0.1
+    "@types/node": ^20.3.1
     chai: ^4.2.0
     dotenv: ^16.3.1
     ethers: ^6.4.0
@@ -3635,9 +3635,9 @@ __metadata:
     prettier: ^2.8.8
     prettier-plugin-solidity: ^1.1.3
     solidity-coverage: ^0.8.3
-    ts-node: ">=8.0.0"
-    typechain: ^8.1.0
-    typescript: ">=4.5.0"
+    ts-node: ^10.9.1
+    typechain: ^8.2.0
+    typescript: ^5.1.3
   languageName: unknown
   linkType: soft
 
@@ -6697,7 +6697,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-node@npm:>=8.0.0":
+"ts-node@npm:^10.9.1":
   version: 10.9.1
   resolution: "ts-node@npm:10.9.1"
   dependencies:
@@ -6816,7 +6816,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typechain@npm:^8.1.0":
+"typechain@npm:^8.2.0":
   version: 8.2.0
   resolution: "typechain@npm:8.2.0"
   dependencies:
@@ -6856,7 +6856,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:>=4.5.0":
+"typescript@npm:^5.1.3":
   version: 5.1.3
   resolution: "typescript@npm:5.1.3"
   bin:
@@ -6866,7 +6866,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@>=4.5.0#~builtin<compat/typescript>":
+"typescript@patch:typescript@^5.1.3#~builtin<compat/typescript>":
   version: 5.1.3
   resolution: "typescript@patch:typescript@npm%3A5.1.3#~builtin<compat/typescript>::version=5.1.3&hash=77c9e2"
   bin:

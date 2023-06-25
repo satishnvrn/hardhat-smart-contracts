@@ -5,6 +5,7 @@ import "@nomicfoundation/hardhat-verify";
 import "./tasks/block-number";
 import "hardhat-gas-reporter";
 import "solidity-coverage";
+import "@typechain/hardhat";
 
 const SEPOLIA_RPC_URL: string = process.env.SEPOLIA_RPC_URL || '';
 const PRIVATE_KEY: string = process.env.PRIVATE_KEY || '';
